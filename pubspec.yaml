@@ -65,7 +65,7 @@ dependencies:
   # Flutter library to load and cache network images.
   cached_network_image: ^3.4.1
   # reading and writing simple key-value pairs
-  shared_preferences: ^2.5.5
+  #shared_preferences: ^2.5.5
   # provides API to store data in secure storage.
   flutter_secure_storage: ^10.3.1
   # easy way to add shimmer effect
@@ -96,8 +96,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
+    - assets/svgs/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
