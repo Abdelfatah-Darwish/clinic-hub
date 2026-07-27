@@ -1,6 +1,7 @@
 import 'package:doctor_appointment_v2/core/theming/styles.dart';
 import 'package:doctor_appointment_v2/features/onboarding/widgets/doc_logo_and_name.dart';
 import 'package:doctor_appointment_v2/features/onboarding/widgets/doctor_image_and_text.dart';
+import 'package:doctor_appointment_v2/features/onboarding/widgets/get_started_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -30,6 +31,7 @@ class OnboardingScreen extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
+                GetStartedButton(),
               ],
             ),
           ),
