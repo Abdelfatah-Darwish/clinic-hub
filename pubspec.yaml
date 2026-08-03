@@ -39,6 +39,8 @@ dependencies:
   flutter_svg: ^2.3.0
   # for adapting screen and font size.
   flutter_screenutil: ^5.9.3
+  # native splash screen with background color and splash image. Supports dark mode, full screen, and more.
+  flutter_native_splash: ^2.4.8
 
 
 
