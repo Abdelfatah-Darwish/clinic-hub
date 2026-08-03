@@ -13,6 +13,7 @@ class DocApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       minTextAdapt: true,
+      useInheritedMediaQuery: true,
       child: MaterialApp(
         title: 'Doc App',
         theme: ThemeData(
