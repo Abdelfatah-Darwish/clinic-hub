@@ -21,8 +21,8 @@ class DocApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         debugShowCheckedModeBanner: false,
-        // initialRoute: Routes.onBoardingScreen,
-        initialRoute: Routes.loginScreen,
+        initialRoute: Routes.onBoardingScreen,
+        //initialRoute: Routes.loginScreen,
         onGenerateRoute: appRouter.generateRoute,
       ),
     );
